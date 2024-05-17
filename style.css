@@ -1,0 +1,133 @@
+/* Landin Page: */
+body {
+    background-color: coral;
+    /* background: radial-gradient(#ff7f50, rgba(30, 27, 27, 0.2), #ff7f50); */
+    color: beige;
+    font-family: sans-serif;
+}
+.card {
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 0 0 5px wheat;
+    width: 600px;
+    /*! Dentro da tag body a centralização, só funciona assim: margin:0 auto */
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 32px;
+
+    background: linear-gradient(coral, #fff4, coral);
+
+    /*! Não FUnciona esse posicionamento centralizado dentro da tag body */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+
+    /*! Não funciona também-seria um desfocado */
+    backdrop-filter: blur(20px);
+}
+.perfil img {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    box-shadow: 0 0 15px wheat;
+}
+.perfil h1 {
+    font-size: 34px;
+    color: wheat;
+    text-shadow: 0px 0px 1px beige;
+}
+.redes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+.redes a {
+    color: wheat;
+    text-decoration: none;
+    border: 1px solid;
+    box-shadow: 0 0 5px coral;
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(#ff7f50, #fff4);
+}
+.minibio {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(#ff7f50, #fff4, #ff7f50);
+    box-shadow: 0 0 5px wheat;
+}
+.minibio strong {
+    color: wheat;
+}
+.minha-assinatura {
+    font-size: 12px;
+    color: #e9d0a2;
+}
+
+/*? Responsividade de Tela: 960px */
+@media (max-width: 960px) {
+    .card {
+        width: 400px;
+    }
+    .perfil img {
+        width: 170px;
+        height: 170px;
+    }
+    .perfil h1 {
+        font-size: 28px;
+    }
+    .perfil h3 {
+        font-size: medium;
+    }
+    .redes {
+        height: 100%;
+        transition: 0.3s;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;      
+    }
+    .redes a {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .minibio {
+        font-size: 15px;
+    }
+    .minha-assinatura {
+        font-size: 10px;
+    }
+}
+/*? Responsividade de Tela: 610px */
+@media (max-width: 610px) {
+    .card {
+        width: 250px;
+    }
+    .perfil img {
+        width: 150px;
+        height: 150px;
+    }
+    .perfil h1 {
+        font-size: 25px;
+    }
+    .perfil h3 {
+        font-size: small;
+    }
+    .redes {
+        margin-bottom: 10px;
+    }
+    .redes a {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .minibio {
+        font-size: 14px;
+    }
+    .minha-assinatura {
+        font-size: 08px;
+    }
+}
