@@ -2,7 +2,7 @@
 
 Link da MasterClass no Youtube: https://m.youtube.com/live/63iJaizzFlI
 
-Instrutora: Natália F. Dev
+Instrutora: Natália F. Dev  
 
 Projeto desenvolvido com alterações e/ou adaptações.
 
@@ -22,5 +22,7 @@ Objetivo era criar uma página web pessoal, com foto, links das redes sociais e 
 - VSCode
 <!-- - CodePen (editor de códigos) -->
 
-São Paulo, 16-05-2024
+
+São Paulo, 16-05-2024  
+
 Marcia Moreira - Full Stack Developer
