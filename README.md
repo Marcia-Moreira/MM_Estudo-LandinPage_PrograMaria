@@ -10,6 +10,10 @@ Projeto desenvolvido com alterações e/ou adaptações.
 
 Objetivo era criar uma página web pessoal, com foto, links das redes sociais e minibiografia.
 
+# Link da Página Publicada no GitHub Pages
+
+https://marcia-moreira.github.io/MM_Estudo-LandinPage_PrograMaria/
+
 ## Tecnologias utilizadas:
 
 - HTML
@@ -19,6 +23,7 @@ Objetivo era criar uma página web pessoal, com foto, links das redes sociais e 
 - Técnicas de Responsividade para telas de tamanhos diferentes
 - Git
 - GitHub
+- GitHub Pages
 - VSCode
 <!-- - CodePen (editor de códigos) -->
 
